@@ -23,5 +23,5 @@ setup(
     ],
     keywords='protobuf',
     packages=find_packages(),
-    install_requires=['protobuf'],
+    install_requires=['protobuf<6.30.0'],
 )
